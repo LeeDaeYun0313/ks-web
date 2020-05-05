@@ -1,9 +1,13 @@
 package com.daeyun.app.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
+
 
 @Entity
 public class Skill {
+  @Id
+
     private String name;
     private Integer grade;
 
@@ -23,7 +27,7 @@ public class Skill {
         this.name = name;
     }
 
-    public Integer getInteger(){
+    public Integer getGrade(){
         return grade;
     }
 

@@ -2,8 +2,13 @@ package com.daeyun.app.entity;
 
 import javax.persistence.Entity;
 
+import javax.persistence.Id;
+
+
 @Entity
 public class Work {
+    @Id
+
     private String position;
     private String company;
     private String time;

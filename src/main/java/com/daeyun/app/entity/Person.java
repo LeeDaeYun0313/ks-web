@@ -1,6 +1,7 @@
 package com.daeyun.app.entity;
 
 import javax.persistence.Entity;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
@@ -8,6 +9,7 @@ import javax.persistence.Id;
 public class Person {
     @Id
     @GeneratedValue
+
     private Long id;
     private String name;
     private String job;

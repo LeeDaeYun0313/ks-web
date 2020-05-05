@@ -2,11 +2,13 @@ package com.daeyun.app.entity;
 
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 
 // SocialMedia 클래스
 @Entity
 public class SocialMedia {
+  @Id
 
     private String github;
     private String twitter;
